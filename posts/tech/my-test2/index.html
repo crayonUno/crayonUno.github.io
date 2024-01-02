@@ -23,14 +23,14 @@ asdfsad
 并将收到的数据写到内存
 ">
 <meta name="author" content="Sulv">
-<link rel="canonical" href="https://xyming108.github.io/posts/tech/my-test2/">
+<link rel="canonical" href="https://crayonUno.github.io/posts/tech/my-test2/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="https://xyming108.github.io/img/crayon-avator-left-top.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://xyming108.github.io/img/crayon-avator-left-top.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://xyming108.github.io/img/crayon-avator-left-top.png">
-<link rel="apple-touch-icon" href="https://xyming108.github.io/img/crayon-avator-left-top.png">
-<link rel="mask-icon" href="https://xyming108.github.io/img/crayon-avator-left-top.png">
+<link rel="icon" href="https://crayonUno.github.io/img/crayon-avator-left-top.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://crayonUno.github.io/img/crayon-avator-left-top.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://crayonUno.github.io/img/crayon-avator-left-top.png">
+<link rel="apple-touch-icon" href="https://crayonUno.github.io/img/crayon-avator-left-top.png">
+<link rel="mask-icon" href="https://crayonUno.github.io/img/crayon-avator-left-top.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -104,13 +104,13 @@ asdfsad
 并将收到的数据写到内存
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://xyming108.github.io/posts/tech/my-test2/" />
-<meta property="og:image" content="https://xyming108.github.io/posts/tech/my-test2/1.png" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://crayonUno.github.io/posts/tech/my-test2/" />
+<meta property="og:image" content="https://crayonUno.github.io/posts/tech/my-test2/1.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-01-02T16:56:57+08:00" />
 <meta property="article:modified_time" content="2024-01-02T16:56:57+08:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://xyming108.github.io/posts/tech/my-test2/1.png" />
+<meta name="twitter:image" content="https://crayonUno.github.io/posts/tech/my-test2/1.png" />
 <meta name="twitter:title" content="My Test2"/>
 <meta name="twitter:description" content="第一篇测试文章
 
@@ -139,20 +139,20 @@ asdfsad
           "@type": "ListItem",
           "position":  1 ,
           "name": "📚文章",
-          "item": "https://xyming108.github.io/posts/"
+          "item": "https://crayonUno.github.io/posts/"
         },
 
         {
           "@type": "ListItem",
           "position":  2 ,
           "name": "👨🏻‍💻 技术",
-          "item": "https://xyming108.github.io/posts/tech/"
+          "item": "https://crayonUno.github.io/posts/tech/"
         }, 
     {
       "@type": "ListItem",
       "position":  3 ,
       "name": "My Test2",
-      "item": "https://xyming108.github.io/posts/tech/my-test2/"
+      "item": "https://crayonUno.github.io/posts/tech/my-test2/"
     }
   ]
 }
@@ -170,7 +170,7 @@ asdfsad
   "articleBody": "第一篇测试文章 封面图片 图片插入文件夹生成是否正确\rasdfasdf asdfasdf sdfsadf\nasdfsad\n从网卡接收数据说起 网卡收到传输的数据 并将收到的数据写到内存 cpu 中断。网卡将数据写入内存后，向 cpu 发出中断信号，cpu 执行网卡中断程序。（硬件的信号优先级高） 中断程序主要有两个功能。 将数据写到对应的 socket （与端口对应）接收缓冲区中。执行过程中对应的进程进入对应的 socket 等待队列（阻塞状态）。 socket 接收到数据后，操作系统唤醒该进程，进入工作队列（运行状态）。 服务端如何同时监视多个 socket 的数据状态？ select https://man7.org/linux/man-pages/man2/select.2.html\n假如进程 A 需要同时监控 socket1，socket2，socket3。调用 select 后，操作系统把进程 A 分别加入到这 3 个 socket 的等待队列中。\n进程A 阻塞在 select 调用上。\n当任何一个 socket 有数据后，中断程序唤醒进程，将进程 A 从所有等待队列中移除，加入到工作队列中。进程 A 被唤醒后，说明至少有一个 socket 收到了数据，遍历 socket_sets 就可知道哪个有数据。\n我们知道，如今的服务端需要同时管理的客户端连接数比较大。select 调用中需要多次遍历，需要同时监听的 socket 越多，select 调用的效率越低。也是因此，select 最多支持同时监听 1024 个 socket。\nepoll https://man7.org/linux/man-pages/man7/epoll.7.html\n流程 假如进程 A 需要同时监控 socket1，socket2，socket3。先调用 epoll_create 方法创建一个 eventpoll 对象（返回一个 fd 指向该对象），和 socket 类似，eventpoll 也有自己对应的等待队列。\n调用 epoll_ctl 添加/删除 监听的 socket（interest list（rbr））。操作系统将 eventpoll 对象添加到 socket1/2/3 的等待队列中。\n当任何一个 socket 有数据后，中断程序为 eventpoll 的 ready list（双向链表） 添加对应的 socket 引用。唤醒等待队列中的进程。\n进程 A 执行到 epoll_wait ，等待数据，如果 ready list 不为空，epoll_wait 返回，唤醒 eventpoll 等待队列中的进程。如果为空，进程 A 阻塞在 epoll_wait 调用上等待数据，操作系统会把进程 A 加入到 eventpoll 的等待队列中。\n优势 引入依赖，中心仓库没有的话可以手动下载源码 install。\norg.csource fastdfs-client-java 1.29-SNAPSHOT Client\nepoll 通过一个中间层 eventpoll 对象及其对应的等待队列，进程被阻塞时只需要一次添加到等待队列中。\n通过 ready list 引用有数据的 socket 。进程被唤醒后，可以直接知道哪些 socket 有数据。\nprivate HeliosGetScoreResponse queryScores(HeliosGetScoreRequest request) { HeliosGetScoreResponse response = new HeliosGetScoreResponse(); List\u003cHeliosScore\u003e heliosScores = heliosService.queryScoresTimeBetween(request.getStartTime(), request.getEndTime(), request.getFilterByAppId()); if (CollectionUtils.isEmpty(heliosScores)) { return response; } Set\u003cString\u003e dateSet = new HashSet\u003c\u003e(); Map\u003cString, List\u003cHeliosScore\u003e\u003e groupByAppIdHeliosScores = heliosScores.stream().collect(Collectors.groupingBy(HeliosScore::getAppId)); for (List\u003cHeliosScore\u003e value : groupByAppIdHeliosScores.values()) { value.sort(Comparator.comparing(HeliosScore::getTimeFrom)); HeliosGetScoreResponse.Score score = new HeliosGetScoreResponse.Score(); score.setNamespace(value.get(0).getNamespace()); score.setAppId(value.get(0).getAppId()); for (HeliosScore heliosScore : value) { List\u003cHeliosScore\u003e splitHeliosScores = heliosScore.split(); for (HeliosScore splitHeliosScore : splitHeliosScores) { if (splitHeliosScore.getTimeFrom().compareTo(request.getStartTime()) \u003c 0) { continue; } if (splitHeliosScore.getTimeFrom().compareTo(request.getEndTime()) \u003e 0) { break; } dateSet.add(DateUtils.yyyyMMddHHmm.formatDate(splitHeliosScore.getTimeFrom())); if (splitHeliosScore.getScores() == null) { splitHeliosScore.setScores(\"100\"); log.error(\"查询时发现数据缺失: {}\", heliosScore); } score.add(Math.max(0, Integer.parseInt(splitHeliosScore.getScores())), null); } } response.getValues().add(score); } response.setDates(new ArrayList\u003c\u003e(dateSet).stream().sorted().collect(Collectors.toList())); return response; } 相关链接 https://zhuanlan.zhihu.com/p/63179839 https://man7.org/linux/man-pages/man7/epoll.7.html https://man7.org/linux/man-pages/man2/select.2.html 上面提到的直接引用 socket，操作系统中间都有一些间接结构，并非直接引用。 根据项目的描述，FastDFS 是一个开源的高性能分布式文件系统。 它的主要功能包括：文件存储，文件同步和文件访问，以及高容量和负载平衡。\nFastDFS 框架设计思路 FastDFS 文件系统总体上划分为三个部分，Client，Tracker Server 和 Storage Server。\nStorage Server ，存储服务器，负责存 ",
   "wordCount" : "1154",
   "inLanguage": "zh",
-  "image":"https://xyming108.github.io/posts/tech/my-test2/1.png","datePublished": "2024-01-02T16:56:57+08:00",
+  "image":"https://crayonUno.github.io/posts/tech/my-test2/1.png","datePublished": "2024-01-02T16:56:57+08:00",
   "dateModified": "2024-01-02T16:56:57+08:00",
   "author":[{
     "@type": "Person",
@@ -178,14 +178,14 @@ asdfsad
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://xyming108.github.io/posts/tech/my-test2/"
+    "@id": "https://crayonUno.github.io/posts/tech/my-test2/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Crayon's Blog",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://xyming108.github.io/img/crayon-avator-left-top.png"
+      "url": "https://crayonUno.github.io/img/crayon-avator-left-top.png"
     }
   }
 }
@@ -220,8 +220,8 @@ asdfsad
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://xyming108.github.io/" accesskey="h" title="Crayon&#39;s Blog (Alt + H)">
-            <img src="https://xyming108.github.io/img/crayon-avator-left-top.png" alt="logo" aria-label="logo"
+            <a href="https://crayonUno.github.io/" accesskey="h" title="Crayon&#39;s Blog (Alt + H)">
+            <img src="https://crayonUno.github.io/img/crayon-avator-left-top.png" alt="logo" aria-label="logo"
                  height="35">Crayon&#39;s Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
@@ -248,32 +248,32 @@ asdfsad
         </div>
         <ul id="menu">
             <li>
-                <a href="https://xyming108.github.io/search" title="🔍 搜索 (Alt &#43; /)" accesskey=/>
+                <a href="https://crayonUno.github.io/search" title="🔍 搜索 (Alt &#43; /)" accesskey=/>
                 <span>🔍 搜索</span>
                 </a>
             </li>
             <li>
-                <a href="https://xyming108.github.io/" title="🏠 主页">
+                <a href="https://crayonUno.github.io/" title="🏠 主页">
                 <span>🏠 主页</span>
                 </a>
             </li>
             <li>
-                <a href="https://xyming108.github.io/posts" title="📚 文章">
+                <a href="https://crayonUno.github.io/posts" title="📚 文章">
                 <span>📚 文章</span>
                 </a>
             </li>
             <li>
-                <a href="https://xyming108.github.io/tags" title="🧩 标签">
+                <a href="https://crayonUno.github.io/tags" title="🧩 标签">
                 <span>🧩 标签</span>
                 </a>
             </li>
             <li>
-                <a href="https://xyming108.github.io/archives/" title="⏱️ 时间轴">
+                <a href="https://crayonUno.github.io/archives/" title="⏱️ 时间轴">
                 <span>⏱️ 时间轴</span>
                 </a>
             </li>
             <li>
-                <a href="https://xyming108.github.io/about" title="🙋🏻‍♂️ 关于">
+                <a href="https://crayonUno.github.io/about" title="🙋🏻‍♂️ 关于">
                 <span>🙋🏻‍♂️ 关于</span>
                 </a>
             </li>
@@ -292,7 +292,7 @@ asdfsad
 <article class="post-single">
     <div id="single-content">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="https://xyming108.github.io/">🏠 主页</a>&nbsp;»&nbsp;<a href="https://xyming108.github.io/posts/">📚文章</a>&nbsp;»&nbsp;<a href="https://xyming108.github.io/posts/tech/">👨🏻‍💻 技术</a></div>
+            <div class="breadcrumbs"><a href="https://crayonUno.github.io/">🏠 主页</a>&nbsp;»&nbsp;<a href="https://crayonUno.github.io/posts/">📚文章</a>&nbsp;»&nbsp;<a href="https://crayonUno.github.io/posts/tech/">👨🏻‍💻 技术</a></div>
             <h1 class="post-title">
                 My Test2
             </h1>
@@ -368,7 +368,7 @@ asdfsad
                             <script>
                                 let url = document.documentURI
                                 
-                                let dnsUrl = "https://xyming108.github.io/"
+                                let dnsUrl = "https://crayonUno.github.io/"
                                 let urlSplit = url.split(dnsUrl)
                                 let finalUrl = urlSplit[1]
                                 if (finalUrl[0] !== '/') {
@@ -401,7 +401,7 @@ asdfsad
 
 </div>
         </header> 
-<figure class="entry-cover1"><img style="zoom:;" loading="lazy" src="https://xyming108.github.io/posts/tech/my-test2/1.png" alt="">
+<figure class="entry-cover1"><img style="zoom:;" loading="lazy" src="https://crayonUno.github.io/posts/tech/my-test2/1.png" alt="">
     
 </figure><aside id="toc-container" class="toc-container wide">
     <div class="toc">
@@ -632,10 +632,10 @@ asdfsad
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="next" href="https://xyming108.github.io/posts/tech/my-test/">
-    <span class="title">下一页 »</span>
+  <a class="prev" href="https://crayonUno.github.io/posts/life/recommend-music/">
+    <span class="title">« 上一页</span>
     <br>
-    <span>My Test</span>
+    <span>音乐推荐</span>
   </a>
 </nav>
 
@@ -649,7 +649,7 @@ asdfsad
         Copyright
         &copy;
         -2024
-        <a href="https://xyming108.github.io/" style="color:#939393;">Crayon&#39;s Blog</a>
+        <a href="https://crayonUno.github.io/" style="color:#939393;">Crayon&#39;s Blog</a>
         All Rights Reserved
     </span>
     <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;"></a>&nbsp;
