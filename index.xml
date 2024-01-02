@@ -26,7 +26,7 @@
     </item>
     
     <item>
-      <title>My Test2</title>
+      <title>Blog functional test</title>
       <link>https://crayonUno.github.io/posts/tech/my-test2/</link>
       <pubDate>Tue, 02 Jan 2024 16:56:57 +0800</pubDate>
       
@@ -40,10 +40,13 @@
 &lt;h2 id=&#34;asdfasdf&#34;&gt;asdfasdf&lt;/h2&gt;
 &lt;h3 id=&#34;asdfasdf-1&#34;&gt;asdfasdf&lt;/h3&gt;
 &lt;p&gt;sdfsadf&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/crayonUno/picture/main/blog/6c3e6b13gy1hh900ta17lj20fo0jlq3i.jpg&#34; alt=&#34;6c3e6b13gy1hh900ta17lj20fo0jlq3i&#34;  /&gt;
+&lt;/p&gt;
 &lt;p&gt;asdfsad&lt;/p&gt;
 &lt;h2 id=&#34;从网卡接收数据说起&#34;&gt;从网卡接收数据说起&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;网卡收到传输的数据&lt;/li&gt;
+&lt;li&gt;网卡收到传输的数据&lt;img loading=&#34;lazy&#34; src=&#34;C:/Users/Crayon/Desktop/avatar-originnal.jpg&#34; alt=&#34;avatar-originnal&#34;  /&gt;
+&lt;/li&gt;
 &lt;li&gt;并将收到的数据写到内存&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
@@ -63,7 +66,7 @@
       <pubDate>Sat, 06 Nov 2021 14:57:28 +0800</pubDate>
       
       <guid>https://crayonUno.github.io/about/</guid>
-      <description>关于我 Email hexin.in@qq.com 英文名: Crayon 职业: 程序员 爱好: 🏀 关于这个博客 基于 Sulv&amp;rsquo;s Blog 的博客模板搭建，谢谢 Kevin Xu。 Sulv&amp;rsquo;s Blog 地址：https://www.sulvblog.cn/ 博客仓库源码：博客源码: https://github.com/xyming108/sulv-hugo-papermod</description>
+      <description>关于我 Email fanghx024@foxmail.com 职业: 程序员 爱好: 🏀 关于这个博客 &amp;hellip;</description>
     </item>
     
     
