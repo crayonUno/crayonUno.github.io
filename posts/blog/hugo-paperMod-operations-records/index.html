@@ -77,12 +77,12 @@ var _hmt = _hmt || [];
 <meta property="og:description" content="简要记录一些内容，方便平时操作" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://crayonUno.github.io/posts/blog/hugo-papermod-operations-records/" />
-<meta property="og:image" content="https://crayonUno.github.io/posts/blog/hugo-paperMod-operations-records/cover.png" /><meta property="article:section" content="posts" />
+<meta property="og:image" content="https://crayonUno.github.io/posts/blog/hugo-papermod-operations-records/cover.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-01-02T20:34:51+08:00" />
 <meta property="article:modified_time" content="2024-01-02T20:34:51+08:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://crayonUno.github.io/posts/blog/hugo-paperMod-operations-records/cover.png" />
+<meta name="twitter:image" content="https://crayonUno.github.io/posts/blog/hugo-papermod-operations-records/cover.png" />
 <meta name="twitter:title" content="博客常用操作"/>
 <meta name="twitter:description" content="简要记录一些内容，方便平时操作"/>
 
@@ -125,10 +125,10 @@ var _hmt = _hmt || [];
   "keywords": [
     ""
   ],
-  "articleBody": "常用操作 本地预览调试 hugo server -D #本地启动预览 hugo -F --cleanDestinationDir #重新生成 public 文件夹下的内容 hugo new /posts/[folderName]/[artileName].md # 生成文章到 content/posts/folderName下 图片引用方式 在文章里面使用本地图片的方式： 比如我在content/posts/tech/下有一篇文章叫做 golang_base.md，那么在和该文章同一目录下新建一个文件夹叫做 golang_base，里面放图片如叫做 picture.png 的图片，那么在golang_base.md里面调用的时候 直接引用文件名即可。ps - 这样有一个问题是在本地编辑器文章内没办法看到图片，待优化\n参考链接 https://www.sulvblog.cn/posts/blog/build_hugo/ 搭建教程 https://github.com/xyming108/sulv-hugo-papermod 博客源码 https://www.sulvblog.cn/ 教程和源码作者博客地址 ",
-  "wordCount" : "274",
+  "articleBody": "常用操作 本地预览调试 hugo server -D #本地启动预览 hugo -F --cleanDestinationDir #重新生成 public 文件夹下的内容 hugo new /posts/[folderName]/[artileName].md # 生成文章到 content/posts/folderName下 图片引用方式 在文章里面使用本地图片的方式： 比如我在content/posts/tech/下有一篇文章叫做 golang_base.md，那么在和该文章同一目录下新建一个文件夹叫做 golang_base，里面放图片如叫做 picture.png 的图片，那么在golang_base.md里面调用的时候直接引用文件名即可。\n这种方式有一个问题是在本地编辑器中没有方法实时预览到引用的图片。研究一番后，最后先用 PicGo + Github 搭一个免费的图床来使用。这样的话设置好之后，直接将图片插入到 Typora 就可以自动上传并引用图片的 URL 进行访问。\n参考链接 https://www.sulvblog.cn/posts/blog/build_hugo/ 搭建教程 https://github.com/xyming108/sulv-hugo-papermod 博客源码 https://www.sulvblog.cn/ 教程和源码作者博客地址 ",
+  "wordCount" : "338",
   "inLanguage": "zh",
-  "image":"https://crayonUno.github.io/posts/blog/hugo-paperMod-operations-records/cover.png","datePublished": "2024-01-02T20:34:51+08:00",
+  "image":"https://crayonUno.github.io/posts/blog/hugo-papermod-operations-records/cover.png","datePublished": "2024-01-02T20:34:51+08:00",
   "dateModified": "2024-01-02T20:34:51+08:00",
   "author":[{
     "@type": "Person",
@@ -289,7 +289,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>274字
+        <span>338字
             &nbsp;&nbsp;
         </span>
     </span>
@@ -363,7 +363,7 @@ var _hmt = _hmt || [];
 
 </div>
         </header> 
-<figure class="entry-cover1"><img style="zoom:;" loading="lazy" src="https://crayonUno.github.io/posts/blog/hugo-paperMod-operations-records/cover.png" alt="">
+<figure class="entry-cover1"><img style="zoom:;" loading="lazy" src="https://crayonUno.github.io/posts/blog/hugo-papermod-operations-records/cover.png" alt="">
     
 </figure><aside id="toc-container" class="toc-container wide">
     <div class="toc">
@@ -455,7 +455,10 @@ var _hmt = _hmt || [];
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">hugo -F --cleanDestinationDir</span> <span style="color:#75715e">#重新生成 public 文件夹下的内容</span>
 </span></span><span style="display:flex;"><span><span style="color:#ae81ff">hugo new /posts/[folderName]/[artileName].md</span> <span style="color:#75715e"># 生成文章到 content/posts/folderName下</span>
 </span></span></code></pre></div><h2 id="图片引用方式">图片引用方式<a hidden class="anchor" aria-hidden="true" href="#图片引用方式">#</a></h2>
-<p>在文章里面使用本地图片的方式： 比如我在content/posts/tech/下有一篇文章叫做 golang_base.md，那么在和该文章同一目录下新建一个文件夹叫做 golang_base，里面放图片如叫做 picture.png 的图片，那么在golang_base.md里面调用的时候 直接引用文件名即可。ps - 这样有一个问题是在本地编辑器文章内没办法看到图片，待优化</p>
+<p>在文章里面使用本地图片的方式： 比如我在content/posts/tech/下有一篇文章叫做 golang_base.md，那么在和该文章同一目录下新建一个文件夹叫做 golang_base，里面放图片如叫做 picture.png 的图片，那么在golang_base.md里面调用的时候直接引用文件名即可。</p>
+<p><img loading="lazy" src="https://raw.githubusercontent.com/crayonUno/picture/main/blog/image-20240103100502240.png" alt="image-20240103100502240"  />
+</p>
+<p>这种方式有一个问题是在本地编辑器中没有方法实时预览到引用的图片。研究一番后，最后先用 PicGo + Github 搭一个免费的图床来使用。这样的话设置好之后，直接将图片插入到 Typora 就可以自动上传并引用图片的 URL 进行访问。</p>
 <h1 id="参考链接">参考链接<a hidden class="anchor" aria-hidden="true" href="#参考链接">#</a></h1>
 <ol>
 <li><em><a href="https://www.sulvblog.cn/posts/blog/build_hugo/">https://www.sulvblog.cn/posts/blog/build_hugo/</a> 搭建教程</em></li>
