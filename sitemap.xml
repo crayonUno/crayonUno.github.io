@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://crayonUno.github.io/posts/</loc>
-    <lastmod>2024-01-03T12:41:23+08:00</lastmod>
+    <loc>https://crayonUno.github.io/posts/life/</loc>
+    <lastmod>2024-01-06T10:41:28+08:00</lastmod>
   </url><url>
-    <loc>https://crayonUno.github.io/tags/blog/</loc>
-    <lastmod>2024-01-03T12:41:23+08:00</lastmod>
+    <loc>https://crayonUno.github.io/posts/</loc>
+    <lastmod>2024-01-06T10:41:28+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/posts/life/2023-annual-summary/</loc>
+    <lastmod>2024-01-06T10:41:28+08:00</lastmod>
   </url><url>
     <loc>https://crayonUno.github.io/</loc>
-    <lastmod>2024-01-03T12:41:23+08:00</lastmod>
+    <lastmod>2024-01-06T10:41:28+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/tags/diary/</loc>
+    <lastmod>2024-01-06T10:41:28+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/tags/life/</loc>
+    <lastmod>2024-01-06T10:41:28+08:00</lastmod>
   </url><url>
     <loc>https://crayonUno.github.io/tags/</loc>
-    <lastmod>2024-01-03T12:41:23+08:00</lastmod>
-  </url><url>
-    <loc>https://crayonUno.github.io/posts/blog/</loc>
-    <lastmod>2024-01-03T12:41:23+08:00</lastmod>
-  </url><url>
-    <loc>https://crayonUno.github.io/posts/blog/create-blog-operations/</loc>
-    <lastmod>2024-01-03T12:41:23+08:00</lastmod>
-  </url><url>
-    <loc>https://crayonUno.github.io/posts/life/</loc>
-    <lastmod>2024-01-02T19:48:17+08:00</lastmod>
+    <lastmod>2024-01-06T10:41:28+08:00</lastmod>
   </url><url>
     <loc>https://crayonUno.github.io/tags/music/</loc>
     <lastmod>2024-01-02T19:48:17+08:00</lastmod>
@@ -34,6 +34,15 @@
   </url><url>
     <loc>https://crayonUno.github.io/posts/tech/my-test2/</loc>
     <lastmod>2024-01-02T16:56:57+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/tags/blog/</loc>
+    <lastmod>2024-01-03T12:41:23+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/posts/blog/</loc>
+    <lastmod>2024-01-03T12:41:23+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/posts/blog/create-blog-operations/</loc>
+    <lastmod>2024-01-03T12:41:23+08:00</lastmod>
   </url><url>
     <loc>https://crayonUno.github.io/links/</loc>
     <lastmod>2021-11-06T15:15:53+08:00</lastmod>

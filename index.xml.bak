@@ -6,14 +6,14 @@
     <description>Recent content on Crayon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 06 Jan 2024 10:41:28 +0800</lastBuildDate><atom:link href="https://crayonUno.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jan 2024 12:41:23 +0800</lastBuildDate><atom:link href="https://crayonUno.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2023 Annual Summary</title>
-      <link>https://crayonUno.github.io/posts/life/2023-annual-summary/</link>
-      <pubDate>Sat, 06 Jan 2024 10:41:28 +0800</pubDate>
+      <title>博客常用操作2</title>
+      <link>https://crayonUno.github.io/posts/blog/create-blog-operations/</link>
+      <pubDate>Wed, 03 Jan 2024 12:41:23 +0800</pubDate>
       
-      <guid>https://crayonUno.github.io/posts/life/2023-annual-summary/</guid>
-      <description>2023没有做好什么事情，还是来展望一下2024吧</description>
+      <guid>https://crayonUno.github.io/posts/blog/create-blog-operations/</guid>
+      <description>简要记录一些内容，方便平时操作</description>
     </item>
     
     <item>
@@ -52,15 +52,6 @@
     </item>
     
     <item>
-      <title>博客常用操作</title>
-      <link>https://crayonUno.github.io/posts/blog/create-blog-operations/</link>
-      <pubDate>Tue, 03 Jan 2023 12:41:23 +0800</pubDate>
-      
-      <guid>https://crayonUno.github.io/posts/blog/create-blog-operations/</guid>
-      <description>简要记录一些内容，方便平时操作</description>
-    </item>
-    
-    <item>
       <title>🤝友链</title>
       <link>https://crayonUno.github.io/links/</link>
       <pubDate>Sat, 06 Nov 2021 15:15:53 +0800</pubDate>
@@ -75,7 +66,7 @@
       <pubDate>Sat, 06 Nov 2021 14:57:28 +0800</pubDate>
       
       <guid>https://crayonUno.github.io/about/</guid>
-      <description>关于我 Email fanghx024@foxmail.com 职业: 程序员 爱好: 🏀 关于这个博客 都是基于以下这个仓库和教程搭建的。 https://www.sulvblog.cn/posts/blog/build_hugo/ 建站教程 https://github.com/xyming108/sulv-hugo-papermod 代码仓库</description>
+      <description>关于我 Email fanghx024@foxmail.com 职业: 程序员 爱好: 🏀 关于这个博客 &amp;hellip;</description>
     </item>
     
     
