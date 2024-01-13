@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>👨🏻‍💻 技术 on Crayon&#39;s Blog</title>
-    <link>https://crayonUno.github.io/posts/tech/</link>
-    <description>Recent content in 👨🏻‍💻 技术 on Crayon&#39;s Blog</description>
+    <title>git on Crayon&#39;s Blog</title>
+    <link>https://crayonUno.github.io/tags/git/</link>
+    <description>Recent content in git on Crayon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 13 Jan 2024 15:48:54 +0800</lastBuildDate><atom:link href="https://crayonUno.github.io/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Jan 2024 15:48:54 +0800</lastBuildDate><atom:link href="https://crayonUno.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>让 Git 更好用的 10 个命令别名</title>
       <link>https://crayonUno.github.io/posts/tech/git-alias/</link>
@@ -23,32 +23,6 @@
       
       <guid>https://crayonUno.github.io/posts/tech/git/</guid>
       <description>在搜索资料的过程中，看到很多总结的非常完善的文章，所以还是站在巨人的肩膀上，直接引用这些内容，需要的时候检索一下就好。 我也建议直接阅读文章中给出的这些链接去学习。 参考资料 https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html 常用 Git 命令清单。推荐阅读 https://www.ruanyifeng.com/blog/2015/08/git-use-process.html Git 使用规范。推荐阅读 https://www.ruanyifeng.com/blog/2015/12/git-workflow.html Git 工作流程 https://www.ruanyifeng.com/blog/2014/06/git_remote.html Git 远程工作详解 https://cs.fyi/guide/git-cheatsheet Git 命令清单 https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet Git 命令清单 https://www.liaoxuefeng.com/wiki/896043488029600 Git 教程 https://learngitbranching.js.org/</description>
-    </item>
-    
-    <item>
-      <title>Blog functional test</title>
-      <link>https://crayonUno.github.io/posts/tech/my-test2/</link>
-      <pubDate>Tue, 02 Jan 2024 16:56:57 +0800</pubDate>
-      
-      <guid>https://crayonUno.github.io/posts/tech/my-test2/</guid>
-      <description>&lt;h1 id=&#34;第一篇测试文章&#34;&gt;第一篇测试文章&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;封面图片&lt;/li&gt;
-&lt;li&gt;图片插入文件夹生成是否正确&lt;img loading=&#34;lazy&#34; src=&#34;1.png&#34; alt=&#34;1&#34;  /&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;asdfasdf&#34;&gt;asdfasdf&lt;/h2&gt;
-&lt;h3 id=&#34;asdfasdf-1&#34;&gt;asdfasdf&lt;/h3&gt;
-&lt;p&gt;sdfsadf&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/crayonUno/picture/main/blog/6c3e6b13gy1hh900ta17lj20fo0jlq3i.jpg&#34; alt=&#34;6c3e6b13gy1hh900ta17lj20fo0jlq3i&#34;  /&gt;
-&lt;/p&gt;
-&lt;p&gt;asdfsad&lt;/p&gt;
-&lt;h2 id=&#34;从网卡接收数据说起&#34;&gt;从网卡接收数据说起&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;网卡收到传输的数据&lt;img loading=&#34;lazy&#34; src=&#34;C:/Users/Crayon/Desktop/avatar-originnal.jpg&#34; alt=&#34;avatar-originnal&#34;  /&gt;
-&lt;/li&gt;
-&lt;li&gt;并将收到的数据写到内存&lt;/li&gt;
-&lt;/ol&gt;</description>
     </item>
     
   </channel>

@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://crayonUno.github.io/posts/english/</loc>
-    <lastmod>2024-01-06T15:52:03+08:00</lastmod>
+    <loc>https://crayonUno.github.io/posts/tech/</loc>
+    <lastmod>2024-01-13T15:48:54+08:00</lastmod>
   </url><url>
     <loc>https://crayonUno.github.io/posts/</loc>
-    <lastmod>2024-01-06T15:52:03+08:00</lastmod>
+    <lastmod>2024-01-13T15:48:54+08:00</lastmod>
   </url><url>
     <loc>https://crayonUno.github.io/</loc>
+    <lastmod>2024-01-13T15:48:54+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/tags/git/</loc>
+    <lastmod>2024-01-13T15:48:54+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/tags/</loc>
+    <lastmod>2024-01-13T15:48:54+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/posts/tech/git-alias/</loc>
+    <lastmod>2024-01-13T15:48:54+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/posts/tech/git/</loc>
+    <lastmod>2024-01-13T01:01:04+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/posts/life/</loc>
+    <lastmod>2024-01-08T17:01:24+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/posts/life/weekly-diary-01-2024-01-14/</loc>
+    <lastmod>2024-01-08T17:01:24+08:00</lastmod>
+  </url><url>
+    <loc>https://crayonUno.github.io/posts/english/</loc>
     <lastmod>2024-01-06T15:52:03+08:00</lastmod>
   </url><url>
     <loc>https://crayonUno.github.io/tags/english/</loc>
@@ -16,12 +37,6 @@
   </url><url>
     <loc>https://crayonUno.github.io/posts/english/writing/</loc>
     <lastmod>2024-01-06T15:52:03+08:00</lastmod>
-  </url><url>
-    <loc>https://crayonUno.github.io/tags/</loc>
-    <lastmod>2024-01-06T15:52:03+08:00</lastmod>
-  </url><url>
-    <loc>https://crayonUno.github.io/posts/life/</loc>
-    <lastmod>2024-01-06T10:41:28+08:00</lastmod>
   </url><url>
     <loc>https://crayonUno.github.io/posts/life/2023-annual-summary/</loc>
     <lastmod>2024-01-06T10:41:28+08:00</lastmod>
@@ -37,9 +52,6 @@
   </url><url>
     <loc>https://crayonUno.github.io/posts/life/recommend-music/</loc>
     <lastmod>2024-01-02T19:48:17+08:00</lastmod>
-  </url><url>
-    <loc>https://crayonUno.github.io/posts/tech/</loc>
-    <lastmod>2024-01-02T16:56:57+08:00</lastmod>
   </url><url>
     <loc>https://crayonUno.github.io/posts/tech/my-test2/</loc>
     <lastmod>2024-01-02T16:56:57+08:00</lastmod>

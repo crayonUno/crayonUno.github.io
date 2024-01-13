@@ -6,7 +6,34 @@
     <description>Recent content on Crayon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 06 Jan 2024 15:52:03 +0800</lastBuildDate><atom:link href="https://crayonUno.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Jan 2024 15:48:54 +0800</lastBuildDate><atom:link href="https://crayonUno.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>让 Git 更好用的 10 个命令别名</title>
+      <link>https://crayonUno.github.io/posts/tech/git-alias/</link>
+      <pubDate>Sat, 13 Jan 2024 15:48:54 +0800</pubDate>
+      
+      <guid>https://crayonUno.github.io/posts/tech/git-alias/</guid>
+      <description>git 别名配置，提高 git 使用效率</description>
+    </item>
+    
+    <item>
+      <title>git tricks</title>
+      <link>https://crayonUno.github.io/posts/tech/git/</link>
+      <pubDate>Sat, 13 Jan 2024 01:01:04 +0800</pubDate>
+      
+      <guid>https://crayonUno.github.io/posts/tech/git/</guid>
+      <description>在搜索资料的过程中，看到很多总结的非常完善的文章，所以还是站在巨人的肩膀上，直接引用这些内容，需要的时候检索一下就好。 我也建议直接阅读文章中给出的这些链接去学习。 参考资料 https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html 常用 Git 命令清单。推荐阅读 https://www.ruanyifeng.com/blog/2015/08/git-use-process.html Git 使用规范。推荐阅读 https://www.ruanyifeng.com/blog/2015/12/git-workflow.html Git 工作流程 https://www.ruanyifeng.com/blog/2014/06/git_remote.html Git 远程工作详解 https://cs.fyi/guide/git-cheatsheet Git 命令清单 https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet Git 命令清单 https://www.liaoxuefeng.com/wiki/896043488029600 Git 教程 https://learngitbranching.js.org/</description>
+    </item>
+    
+    <item>
+      <title>Weekly Diary 01 2024 01 14</title>
+      <link>https://crayonUno.github.io/posts/life/weekly-diary-01-2024-01-14/</link>
+      <pubDate>Mon, 08 Jan 2024 17:01:24 +0800</pubDate>
+      
+      <guid>https://crayonUno.github.io/posts/life/weekly-diary-01-2024-01-14/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Writing</title>
       <link>https://crayonUno.github.io/posts/english/writing/</link>
