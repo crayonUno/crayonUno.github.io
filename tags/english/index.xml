@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>english on Crayon&#39;s Blog</title>
+    <title>English on Crayon&#39;s Blog</title>
     <link>https://crayonUno.github.io/tags/english/</link>
-    <description>Recent content in english on Crayon&#39;s Blog</description>
+    <description>Recent content in English on Crayon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 06 Jan 2024 15:52:03 +0800</lastBuildDate><atom:link href="https://crayonUno.github.io/tags/english/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Jan 2024 21:13:37 +0800</lastBuildDate><atom:link href="https://crayonUno.github.io/tags/english/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Writing</title>
+      <title>01-How to Elegantly Remove if-else in Your Java Code</title>
+      <link>https://crayonUno.github.io/posts/english/writing-01-how-to-elegantly-remove-if-else-in-your-java-code/</link>
+      <pubDate>Thu, 18 Jan 2024 21:13:37 +0800</pubDate>
+      
+      <guid>https://crayonUno.github.io/posts/english/writing-01-how-to-elegantly-remove-if-else-in-your-java-code/</guid>
+      <description>The first English writing exercise</description>
+    </item>
+    
+    <item>
+      <title>00-English Writing Exercise And Principles</title>
       <link>https://crayonUno.github.io/posts/english/writing/</link>
       <pubDate>Sat, 06 Jan 2024 15:52:03 +0800</pubDate>
       
       <guid>https://crayonUno.github.io/posts/english/writing/</guid>
-      <description>Practicing principles 第一步，找一篇你想提高的同类型的范文。 第二步，把它翻译成中文。 第三步，看着中文再写回英文作文。 第四步，把自己写的和范文比对，表达升级。 第五步，实战练习。 第六步，几天后，把范文的主题部分更改。 比如把求职信，改为申请学校。 1. 01-06 Practicing principles find a sample article of the same type that you want to improve. translate it to Chinese version. look at the Chinese version and write</description>
+      <description>The start one of English writing exercise</description>
     </item>
     
   </channel>
